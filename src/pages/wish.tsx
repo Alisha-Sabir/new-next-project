@@ -13,6 +13,7 @@ const Wish = () => {
         justifyContent: "center",
         alignItems: "center",
         position: "relative",
+        backgroundColor: "#dedaf1",
       }}
     >
       <Container className="d-flex align-items-center">

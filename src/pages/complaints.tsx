@@ -12,6 +12,7 @@ export default function NotFound() {
         justifyContent: "center",
         alignItems: "center",
         // position: "relative",
+        backgroundColor: "#dedaf1",
       }}
     >
       <div className="flex flex-col items-center justify-center h-screen text-center px-6">
