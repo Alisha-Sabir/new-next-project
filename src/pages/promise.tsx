@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Row, Col } from "react-bootstrap";
 import { useRouter } from "next/router";
 
-const promise = () => {
+const PromisePage = () => {
   const router = useRouter();
 
   const text =
@@ -190,4 +190,4 @@ const promise = () => {
   );
 };
 
-export default promise;
+export default PromisePage;

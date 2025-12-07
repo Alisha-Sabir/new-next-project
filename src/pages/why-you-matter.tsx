@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Row, Col } from "react-bootstrap";
 import { useRouter } from "next/router";
 
-const matter = () => {
+const WhyYouMatter = () => {
   const router = useRouter();
 
   const text =
@@ -248,4 +248,4 @@ const matter = () => {
   );
 };
 
-export default matter;
+export default WhyYouMatter;

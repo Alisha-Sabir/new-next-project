@@ -1,7 +1,7 @@
 import React from "react";
 import { useRouter } from "next/router";
 
-const grateful = () => {
+const Grateful = () => {
   const text =
     "Even when you attend meetings the whole day and I get some time to brief you about work, I feel grateful that you’re there to listen. The way you notice the bad energy coming from others toward me and handle it on your own without letting me know - I just want you to remember that nothing goes unnoticed. I appreciate you, always. At first you were just a senior for me , then you became not just a colleague but genuinely a good one. But somewhere along the way you stopped being just a supportive senior and became my family - my go‑to person, my safe place where I feel comfortable. You make even the toughest workdays easier to get through. You give so much of yourself even when you're tired, even when no one says thank you, You still show up, and you still care. I notice it all the time. I do notice everything even if i don't talk about it. And it means more than you know to see how you worry nowadays, afraid of even the slightest chance that I might get khafa with you. It feels like You and I are simply in the right place at the right time.";
 
@@ -114,4 +114,4 @@ const grateful = () => {
   );
 };
 
-export default grateful;
+export default Grateful;

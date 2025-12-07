@@ -1,7 +1,7 @@
 import React from "react";
 
-const feedback = () => {
+const Feedback = () => {
   return <div>feedback</div>;
 };
 
-export default feedback;
+export default Feedback;

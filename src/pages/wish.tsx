@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Row, Col, Container } from "react-bootstrap";
 import { useRouter } from "next/router";
 
-const wish = () => {
+const Wish = () => {
   const router = useRouter();
   return (
     <section
@@ -139,4 +139,4 @@ const wish = () => {
   );
 };
 
-export default wish;
+export default Wish;
