@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+NZ+Guides:wght@400&display=swap");
+
+* {
+  margin: 0px !important;
+  padding: 0px !important;
+  scrollbar-width: thin;
+  scrollbar-color: #9b59b6 #dedaf1;
+}
+
+.caveat {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.playwrite-nz-guides-regular {
+  font-family: "Playwrite NZ Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: #dedaf1;
+  height: 100%;
+  overflow: hidden;
+}
+
+.text {
+  color: #6b4080;
+}
+
+.petal {
+  position: absolute;
+  width: 20px;
+  height: 5px;
+  top: -20px;
+  background-color: #9b59b6;
+  border-radius: 50% 50% 50% 50%;
+  opacity: 0.7;
+  animation-name: fall;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(-50px) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(110vh) rotate(360deg);
+    opacity: 0.3;
+  }
+}
+
+.btn-primary {
+  background-color: #9b59b6 !important;
+  padding: 40px 40px !important;
+  font-size: 30px !important;
+  border: none !important;
+  color: white !important;
+  border-radius: 10px !important;
+}
+
+.btn-primary:hover {
+  transform: scale(1.03) !important;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #dedaf1;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #9b59b6;
+  border-radius: 6px;
+  border: 3px solid #dedaf1;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #8e44ad;
+}
+
+.btn-back {
+  background-color: #8e44ad !important;
+  padding: 5px 10px !important;
+  font-size: 20px !important;
+  border: none !important;
+  color: white !important;
+  border-radius: 10px !important;
+}
+
+.letter {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 4s forwards ease-out;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.letter-matter {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUpMatter 3s forwards ease-in;
+}
+
+@keyframes fadeUpMatter {
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.letter-matter-head {
+  display: inline-block;
+  opacity: 0;
+  /* transform: translateY(20px); */
+  animation: fadeUpHead 1s forwards ease-in;
+}
+
+@keyframes fadeUpHead {
+  from {
+    opacity: 0.1;
+    transform: scale(0px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1.05px);
+  }
+}
+
+.letter-promise {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUpPromise -1s forwards ease-out;
+}
+
+@keyframes fadeUpPromise {
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
